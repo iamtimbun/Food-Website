@@ -7,7 +7,9 @@
     <title>Complete Responsive Food Website Design Tutorial</title>
     <script src="https://kit.fontawesome.com/304572d8b4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <script src = "index.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 <body>
     <header>
@@ -33,10 +35,198 @@
         </div>
     </header>
 
-    <!-- <form action="" id="search-form">
+    <form action="" id="search-form">
         <input type="search" placeholder= "search here..." name="" id="search-box">
         <label for="search-box" class = 'fas fa-search'></label>
-    </form> -->
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+        
+        <div class="swiper-container home-slider">
+
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Our noodles are very spicy and sweet.<br> If you no like am, knock my head.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class = 'image'>
+                        <img src="https://lh3.googleusercontent.com/FB6a6CLU1uI9dU33CEdY6Ol4pvKBjydKzUbxWcbkLN28F6DhZhNPQzmePtM1v0O8u49a5lIYmqBvOGxo3u8Daqa2ZiOXgkJMEA3VdnpzY1J7_zDmL4YNtWwPnEkgzER-dDr1NPNaCi8=w2400" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>fried chicken</h3>
+                        <p>We have chicken that will make you <br> bite your tongue and lick your fingers.<br> Hmmmn hmmmn hmmmn opoooor!!!!.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class = 'image'>
+                        <img src="https://lh3.googleusercontent.com/ijfFllvlTv5BUiJOhxGepFLvNn-PH4u1oTkblR5z4Zu2SzvjKVkesiGda1kqMx5eoXEZbRKFvsvUukP1MqLtiTdip5ykXznHR2IMFj6h5CP-axTHxFq0N2MoCetwHiJkvSU2zXI1GwY=w2400" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>hot pizza</h3>
+                        <p>'Pizza like Gizza like Hizza'. I don't know <br> what I just said.<br> This pizza has taken over my senses.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class = 'image'>
+                        <img src="https://lh3.googleusercontent.com/p7ZMNNiUMqmRzjpIwUCBcCQWqR0m_NPfKqqv99tUyoiXCZcOAb7ajYP8CEAJO8azhg6Y7FvD1U-l-_ZT4RgmiTylKZiz2fA91a76_8rxSl-mpEJhj4iV3qryrNM8OwXH39hfV5al4Bk=w2400" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">our dishes</h3>
+        <h1 class="heading">popular dishes</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class = "fas fa-heart"></a>
+                <a href="#" class = "fas fa-eye"></a>
+                <img src="https://lh3.googleusercontent.com/R9dhhL2Qd3xl1FjJc5KcVMFyXQt-Yr2JL913g3Z-lldfYe-e9O3fdv8df0O3b0__oBujS6OAVQM9zPdUOLUIEa1xsff_tySxMaCsiET845Kb1Cni5y5RhFXSMwUumMKLQ6kWXMSsCmw=w2400" alt="">
+                <h3>burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₦1,000</span>
+                <a href="#" class ="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class = "fas fa-heart"></a>
+                <a href="#" class = "fas fa-eye"></a>
+                <img src="https://lh3.googleusercontent.com/srXjqvDi9Ix4YGfoZ0nkb6iS3mLopHr8EGZeK90Bi9LXgoZWdBMVHcf4WFxSR2XEIu7hinhzCVdIGWuQPEfnm5z-PbieUwNxnpHM-jaX9cAGGjd1t6FSp9XQHrEyKG1xWyrBEvOCk90=w2400" alt="">
+                <h3>chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₦1,500</span>
+                <a href="#" class ="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class = "fas fa-heart"></a>
+                <a href="#" class = "fas fa-eye"></a>
+                <img src="https://lh3.googleusercontent.com/Vr7TC5Ljn0WvOzHQxM0JPEF2rWqM-3mcW7K9ZIKYhzRKkMs5LLPbHZk78nnAJ77iWTS9i6ilSoctjdk_9-x4vl8WMRWeNeFHmRMBcyvvOGv-HGu5kWgwuXSf-AkeZdjHYzLMGo3OPx4=w2400" alt="">
+                <h3>fried chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₦1,800</span>
+                <a href="#" class ="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class = "fas fa-heart"></a>
+                <a href="#" class = "fas fa-eye"></a>
+                <img src="https://lh3.googleusercontent.com/Gzgx53XUp8ERpuFnNlD0rgJeGlPEaIBlNhhzO6S5Y_WAFbr2E3gFUWKJCpLgH951XacZB8iGpjFVBHOPmD-hJq4xEjgHD8sf_P6MfGp1g3WT4bx228oJ7Q66heJUjke8GDYu3sthQY4=w2400" alt="">
+                <h3>pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₦3,500</span>
+                <a href="#" class ="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class = "fas fa-heart"></a>
+                <a href="#" class = "fas fa-eye"></a>
+                <img src="https://lh3.googleusercontent.com/xmou6eG85mxaB9KNXoTU5l21sB4Bjz0QHnVBM6ascUyJTi1I8r6i1n5yHOQ_WE754W9FPzQPvrT-rtg9_MBlDtFeB1GdCBrDlYJlhzPHYK_Pj3iMPAnd3emzHqetxKPGLuID5YbSRHg=w2400" alt="">
+                <h3>chocolate cookies</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₦400</span>
+                <a href="#" class ="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class = "fas fa-heart"></a>
+                <a href="#" class = "fas fa-eye"></a>
+                <img src="https://lh3.googleusercontent.com/OPi8yBL2fpLeSZg6r0R8TGIr-uirG_0FQSKyKiZ3XcKYeT8bxp44oHgYAkU7E51jSmChtjYfOHo93ZlXJGiEx5W2hFdqGw9Vo6a4lrY8jC0RlrkwsP2hCjqqJVWoz4LEJWeK2qB5pXw=w2400" alt="">
+                <h3>deluxe chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₦2,000</span>
+                <a href="#" class ="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h3 class="sub-heading">about us</h3>
+        <h1 class="heading">why choose us?</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="https://lh3.googleusercontent.com/2RmPzfT5dft1SRXIPG10DEf5vygkjB9lzcpFlxZ_ws-FM82aKJUMpsx_oqe04-xZhMeK4vKvVzHwLk8K0XozDdWQB99swY6rodvJCR5wh8VEOZ0KoKX-eOCsnINGRXn-MuOet0LYOmo=w2400" alt="">
+            </div>
+
+            <div class="content">
+                <h3>best food in the country</h3>
+                <p>We offer quality food to you at any given time. You can walk up to any of our outlets at any given time and get fresh food. We boast greatly of our quality food and quality service. Your health and satisfaction are our main concerns.</p>
+                <p>Our customer service system is 100%. At Timbun foods, we ensure that our customers are taken care of properly. Our environment is very conducive and hygienic.</p>
+                
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class ="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+
+                    <div class="icons">
+                        <i class ="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+
+                    <div class="icons">
+                        <i class ="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+
+    </section>
 
 
 </body>
