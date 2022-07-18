@@ -670,6 +670,7 @@ section:nth-child(even) {
     height: 10%;
     width: 10%;
     color: transparent;
+    opacity: 30%;
     /* z-index: 10000;
     background: #fff;
      height: 100%;
